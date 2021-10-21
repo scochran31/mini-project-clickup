@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+:root{
+    --primary-color: #9C69E2;
+    --secondary-color: #F063B8;
+}
+
+/* top of page/nav */
+
+.header{
+    position: absolute;
+    width: 1120px;
+    left: 240px;
+    height: 60px;
+    top: 47px;
+}
+
+/* logo */
+
+.logo{
+    position: absolute;
+    width: 49px;
+    height: 35px;
+    top: 59px;
+    left: 240px;
+}
+
+.rec1{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    bottom: 0px;
+    background: var(--primary-color);
+    border-radius: 20px;
+}
+
+.rec2{
+    position: absolute;
+    width: 20px;
+    height: 35px;
+    right: 0px;
+    background: var(--secondary-color);
+    border-radius: 20px;
+}
